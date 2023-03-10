@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code>
+<def_ext xmlns = "https://docbook.org/ns/docbook" version="5.0">
+    <class name='ext'>
+        <name>Расширения </name>
+        <description>Класс в котором будет реализован весь функционал работы с вкладками</description>
+        <author>Похлёбин ПИ-19В</author>
+        <version>1 . 0. </version>
+        <todo>Пеализовать все методы</todo>
+    </class>
+    <method name ='create_ext'>
+        <name>Метод для создания</name>
+        <description>Создается новый файл записывающийся в БД и корневой каталог как tmp файл</description>
+        <method>Строковый</method>
+        <return>Возвращает путь к созданному файлу</return>
+    </method>
+    
+    <method name ='del_ext'>
+        <name>Метод для удаления</name>
+        <description>Удаляется записывающийся в БД и корневой каталог как tmp файл</description>
+        <method>Строковый</method>
+        <return>Возвращает путь к созданному файлу</return>
+    </method>
+
+    <method name ='change_ext'>
+        <name>Метод для изменения свойст или их данных</name>
+        <description>Изменений данных которые были внесенны в начале разработки расширения</description>
+        <method>Строковый</method>
+        <return>Возвращает изменений файл и его данные</return>
+    </method>
+</def_ext>
+
+<def_search>
+    <class name='search'>
+        <name>Поиск </name>
+        <description>Класс для реализации модуля поиска</description>
+        <author>Похлёбин ПИ-19В</author>
+        <version>1 . 0. </version>
+        <todo>Пеализовать все методы</todo>
+    </class>
+    <method name ='get_search'>
+        <name>Метод для поиска</name>
+        <description>Создается get запрос который делает парсинг нужной страницы и выдают информацию user</description>
+        <method>Строковый</method>
+        <return>Возвращает ответ на запрос</return>
+    </method>
+</def_search>
+</code>
